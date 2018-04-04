@@ -16,4 +16,4 @@ First you create a virtual environment with `virtualenv venv` or `virtualenv -p 
 Then you run `pip install -r requirements.txt` to install all dependencies
 
 ## Demo
-![Heroku Preview]()  
+https://flask-upload-image.herokuapp.com 
