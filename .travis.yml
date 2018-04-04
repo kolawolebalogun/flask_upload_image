@@ -4,5 +4,6 @@ language: python
     # command to install dependencies
   install:
   - pip install -r requirements.txt
+  # run test script
   script:
     - "python app_test.py"
