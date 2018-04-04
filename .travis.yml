@@ -5,5 +5,4 @@ language: python
   install:
   - pip install -r requirements.txt
   # run test script
-  script:
-    - "python app_test.py"
+  script: "python app_test.py"
