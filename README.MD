@@ -1,4 +1,6 @@
 # Flask Upload Image
+[![Build Status](https://travis-ci.org/kolawolebalogun/flask_upload_image.svg?branch=master)](https://travis-ci.org/kolawolebalogun/flask_upload_image)
+
 A very simple Flask app which accepts a photo upload via a form, and then displays that photo back to the user, without saving the uploaded file, simply sends it back as a response.
 
 ## Requirement
