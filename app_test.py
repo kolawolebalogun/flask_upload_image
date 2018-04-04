@@ -35,7 +35,7 @@ class AppTestCase(unittest.TestCase):
         resp = self.app.post('/', content_type='multipart/form-data', data={"image": (image, 'image.jpg')},
                              follow_redirects=True)
         assert resp.data == b"image_file"
-        assert resp.headers["Content-Type"] == "image/jpg"
+        assert resp.headers["Content-Type"] == "image/jp"
 
 
 if __name__ == "__main__":
